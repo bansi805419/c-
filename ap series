@@ -1,0 +1,16 @@
+// ap series 
+#include <iostream>
+using namespace std;
+int main(){
+int a,l,d;
+cout<<"a\n";
+cin>>a;
+cout<<"l\n";
+cin>>l;
+cout<<"d";
+cin>>d;
+for(int i=a;i<=l;i=i+d){
+    cout<<i<<" ,";
+}
+
+}

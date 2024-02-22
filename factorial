@@ -1,0 +1,18 @@
+//Print the factorial from the input given number 1*2*3*4*5 = 120
+#include <iostream>
+using namespace std;
+int main(){
+int i,x;
+cout<<"enter number";
+cin>>x;
+cout<<"1";
+int f = 1;
+for(i=1;i<=x;i++){
+        f*=i ;
+        if(i==1)
+continue;
+cout<<"*"<<i;
+}
+ cout<<" = "<<f;
+
+}

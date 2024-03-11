@@ -1,0 +1,14 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+cout<<sqrt(4)<<endl;
+cout<<sqrt(5)<<endl;
+cout<<sqrt(81)<<endl;
+cout<<sqrt(1.44)<<endl;
+cout<<cbrt(8)<<endl;
+cout<<cbrt(1000)<<endl;
+cout<<min(4,8)<<endl;
+cout<<max(4,8)<<endl;
+cout<<pow(3,4)<<endl;  // 3^4
+}
